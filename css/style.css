@@ -1,0 +1,258 @@
+html {
+    font-size: 0.4vw;
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #331A2F;
+}
+
+.colortext {
+    color: rgba(207, 81, 206, 1);
+}
+
+a {
+    color: #331A2F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+h5, h6 {
+    font-size: 3.4rem;
+    line-height: 5rem;
+    font-weight: 400;
+}
+
+.container {
+    padding: 0 23.4rem 0 26rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    padding: 5rem 0 1.2rem 0;
+}
+
+.vertical_line-padding {
+    padding: 0 2.8rem;
+}
+
+.header_list {
+    width: 25.6rem;
+    font-size: 1.95rem;
+    line-height: 2.2rem;
+}
+
+#menu__toggle {
+    opacity: 0;
+}
+
+.header__mobile-burger {
+    order: 0;
+}
+
+.header__mobile-navigation {
+    display: flex;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 5.9rem;
+    font-size: 3.2rem;
+}
+
+.header_nav_padding {
+    padding-right: 10.5rem;
+}
+
+/*.analytics_icon {
+
+}*/
+
+.header_telephone {
+    font-size: 3.0rem;
+    padding: 0 12.7rem 0 9.8rem;
+}
+
+.button_personal_account {
+    display: flex;
+    font-size: 3rem;
+    padding: 1.4rem 4.0rem;
+    background-color: rgba(207, 81, 206, 1);
+    border-radius: 1.2rem;
+}
+
+.header_button {
+    padding-left: 2rem;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: white;
+    background-color: transparent;
+}
+
+
+.main {
+    background: url(/img/main/main_ellipse-right.svg) no-repeat left top,
+                url(/img/main/main_ellipse-left.svg) no-repeat right bottom;
+    padding-bottom: 19rem;
+}
+
+.main_wrapper {
+    display: flex;
+}
+
+.main_navigation {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    font-size: 6.8rem;
+    line-height: 10.1rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+.main_info {
+    margin-top: 7.5rem;
+}
+
+.main_img {
+    padding-top: 11rem;
+}
+
+.spent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2.9rem;
+}
+
+.price {
+    font-size: 4.6rem;
+    padding-left: 3.2rem;
+}
+
+.main_text {
+    max-width: 115rem;
+}
+
+.main_center_text {
+    margin: 2.2rem 0 2.7rem 0;
+}
+
+.main_bottom_text-mobile {
+    display: none;
+}
+
+
+h2 {
+    font-size: 6rem;
+    line-height: 8rem;
+    font-weight: 700;
+}
+
+.history-title {
+    text-align: center;
+    margin: auto;
+    max-width: 100rem;
+    padding-bottom: 12rem;
+}
+
+.history-title-mobile {
+    display: none;
+}
+
+.history_wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0 14rem;
+    justify-content: space-between;
+}
+
+.history-text {
+    max-width: 103rem;
+}
+
+.history-center-text {
+    padding: 13.8rem 0 3rem 0;
+    max-width: 99.4rem;
+    font-size: 3.3rem;
+}
+
+.history-bottom-text {
+    max-width: 99.4rem;
+    font-size: 3.3rem;
+    padding-bottom: 5rem;
+}
+
+.history {
+    padding-bottom: 17rem;
+}
+
+.benefit_title {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100rem;
+    padding-bottom: 0.5rem;
+    line-height: 8.5rem;
+}
+
+.underline {
+    width: 34.5rem;
+    height: 0.9rem;
+    border-radius: 0.5rem;
+    margin: 0 112.5rem;
+    background-image: linear-gradient(#DD51D4, #7C4EAB);
+}
+
+.benefit_subtitle {
+    max-width: 120rem;
+    text-align: center;
+    margin: 3.2rem auto 12rem;
+}
+
+.benefit_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 19rem;
+}
+
+.benefit_card {
+    max-width: 39rem;
+}
+
+.benefit_card__icon {
+    width: 9.4rem;
+    height: 8.9rem;
+    border-radius: 1.5rem;
+    background-color: #DD51D4;
+}
+
+.benefit_icon__img {
+    width: 7.9rem;
+    padding: 0.5rem 0.8rem 0 0.9rem;
+}
+
+.card_title {
+    font-size: 3.2rem;
+    line-height: 4.6rem;
+    padding: 4rem 0 2.85rem 0;
+}
+
+.card_text {
+    font-size: 2.3rem;
+    line-height: 3.75rem;
+}
